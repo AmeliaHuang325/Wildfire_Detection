@@ -3,5 +3,5 @@ train: images/train
 val: images/val
 test: images/test
 
-nc: 2  # Number of classes (fire, smoke)
-names: ['fire', 'smoke']
+nc: 1  # Number of classes (fire)
+names: ['fire']
