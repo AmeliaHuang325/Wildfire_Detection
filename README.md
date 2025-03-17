@@ -6,6 +6,10 @@ This project focuses on wildfire detection using deep learning models. It includ
 ## Project Structure
 ```
 ├── archive                   # Folder containing backup or previous versions of files
+├── 00_Image labeling.ipynb              # Draw annotation bounding boxs and save as YOLO format
+├── 01_Convert XML to YOLO Format.ipynb  # Converts annotations from XML to YOLO format
+├── 02_Model training.ipynb              # Trains a YOLO-based wildfire detection model
+├── 03_Test.ipynb                         # Tests and evaluates the trained model
 ├── datasets\Whildfire photos            # Dataset folder containing images and labels
 │   ├── images
 │   │   ├── train                        # 80% of images
@@ -16,10 +20,6 @@ This project focuses on wildfire detection using deep learning models. It includ
 │   │   ├── val                          # YOLO labels for val images
 │   │   ├── test                         # YOLO labels for test images
 │   ├── wildfire.yaml                    # YOLO dataset configuration file
-├── 00_Image labeling.ipynb              # Draw annotation bounding boxs and save as YOLO format
-├── 01_Convert XML to YOLO Format.ipynb  # Converts annotations from XML to YOLO format
-├── 02_Model training.ipynb              # Trains a YOLO-based wildfire detection model
-├── 03_Test.ipynb                         # Tests and evaluates the trained model
 ├── Wildfire photos                       # Photos downloaded from Kaggle
 │   ├── Annotations                       # Kaggle annotations in XML format
 │   ├── Datacluster Fire and Smoke Sample # Kaggle images
