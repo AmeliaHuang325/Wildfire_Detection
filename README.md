@@ -30,6 +30,7 @@ This project focuses on wildfire detection using deep learning models. It includ
 ├── output_0.jpg                          # Test file - output
 └── README.md                             # Project documentation
 ```
+The wildfire photos are downloaded from: https://www.kaggle.com/datasets/dataclusterlabs/fire-and-smoke-dataset
 
 ## Requirements
 Ensure you have the following dependencies installed:
