@@ -1,0 +1,6 @@
+# Originally trained with Python 3.11, ultralytics 8.3.86, torch 2.5.0 (CUDA 12.1).
+# ultralytics installs a matching torch/torchvision automatically.
+ultralytics>=8.3.86
+opencv-python
+numpy
+pandas

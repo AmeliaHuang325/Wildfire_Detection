@@ -1,0 +1,12 @@
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+
+# Pretrained base weights (Ultralytics downloads these automatically)
+yolov8n.pt
+yolo11n.pt
+
+# YOLO dataset caches
+*.cache

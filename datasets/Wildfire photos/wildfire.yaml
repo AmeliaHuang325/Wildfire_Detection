@@ -1,4 +1,5 @@
-path: Wildfire photos
+# No `path:` key: Ultralytics then uses this file's folder as the dataset root,
+# as long as the yaml is passed as an absolute path (see the notebooks).
 train: images/train
 val: images/val
 test: images/test
