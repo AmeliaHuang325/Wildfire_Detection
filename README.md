@@ -5,9 +5,8 @@ An end-to-end object detection pipeline that finds **fire in images** using fine
 ![Detections on an unseen forest-fire image](output_0.jpg)
 <sub>Inference on an image the model never saw during training (`forest_fire.jpg`, confidence ≥ 0.2).</sub>
 
-| | |
-|---|---|
 | **Task** | Single-class object detection (`fire`) |
+|---|---|
 | **Models** | YOLOv8n and YOLO11n (Ultralytics), fine-tuned from COCO-pretrained weights |
 | **Data** | 100 annotated images from the [DataCluster Labs Fire & Smoke dataset (Kaggle)](https://www.kaggle.com/datasets/dataclusterlabs/fire-and-smoke-dataset), split 80 / 10 / 10 |
 | **Test result** | **mAP50 = 0.88**, mAP50-95 = 0.54, precision = 1.00, recall = 0.74 on the held-out test set (YOLOv8n) |
